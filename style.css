@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around ;
+}
+
+nav a{
+    font-size: 15px;
+  text-decoration: none;
+  background-color: #4BE1E8;
+  color: black;
+  border:3px solid black;
+  padding: 20px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+nav a:hover{
+  background-color:#a4f6fa;
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color: #01C0C9;
+    padding: 30px;
+}
+footer{
+    background-color: #01C0C9;
+    padding: 30px;
+    
+}
+footer h5{
+  text-align: right;
+  padding-right: 70px;
+}
+footer img{
+  padding: 0 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: ;
+    margin-bottom: 100px;
+}
+section{
+  width: 250px;
+  border: 2px solid black;
+  background-color: white;
+  margin: 20px;
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+.vidhyk img{
+border-radius: 1000px;
+}
+.vidhyk{
+  display: flex;
+}
+iframe{
+  border-radius: 30px;
+}
+.carta{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.here{
+  background-color:#a4f6fa;
+}
+.adress{
+  width:350px ;
+  
+}
